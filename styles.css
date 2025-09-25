@@ -1,13 +1,19 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-table {
+table, th, td {
     border-style: solid;
     border-color: black;
     border-width: 1px;
     border-collapse: collapse;
+    text-align: center;
+}
+
+table {
     width: 100%;
+}
+
+tr:nth-child(even) {
+    background-color: lightcyan;
 }
