@@ -1,9 +1,10 @@
 * {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
 }
 
-table, th, td {
+table,
+th,
+td {
     border-style: solid;
     border-color: black;
     border-width: 1px;
@@ -19,6 +20,11 @@ tr:nth-child(even) {
     background-color: lightcyan;
 }
 
+.my-box p {
+    border-style: solid;
+    border-width: 1px;
+}
+
 .my-box {
     box-sizing: border-box;
     border-style: solid;
@@ -26,12 +32,8 @@ tr:nth-child(even) {
     border-color: black;
     border-radius: 10px;
     width: 400px;
-    height: 200px;
+    height: 300px;
     margin: auto;
-    align-content: center;
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    top: 0;
+    align-content: stretch;
+    position: relative;
 }
